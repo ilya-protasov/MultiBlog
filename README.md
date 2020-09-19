@@ -1,0 +1,2 @@
+# MultiBlog
+MultiBlog pet project
