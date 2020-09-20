@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiBlog.Api", "MultiBlog.Api\MultiBlog.Api.csproj", "{AA1148AC-B34E-46BA-9973-1D1E968DD588}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiBlog.Application", "MultiBlog.Application\MultiBlog.Application.csproj", "{A2C911EA-0E1D-4968-ADF8-1A08AF411350}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiBlog.Application", "MultiBlog.Application\MultiBlog.Application.csproj", "{A2C911EA-0E1D-4968-ADF8-1A08AF411350}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiBlog.Core", "MultiBlog.Core\MultiBlog.Core.csproj", "{469CD78A-C1E1-4E5A-A983-6026AF8EB276}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiBlog.Core", "MultiBlog.Core\MultiBlog.Core.csproj", "{469CD78A-C1E1-4E5A-A983-6026AF8EB276}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiBlog.Infrastructure", "MultiBlog.Infrastructure\MultiBlog.Infrastructure.csproj", "{01E50A31-751A-44B8-984A-166B9CDF9DCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiBlog.Infrastructure", "MultiBlog.Infrastructure\MultiBlog.Infrastructure.csproj", "{01E50A31-751A-44B8-984A-166B9CDF9DCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiBlog.Test", "MultiBlog.Test\MultiBlog.Test.csproj", "{2A91B62C-7838-41C8-AB68-2695E1F26A7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{01E50A31-751A-44B8-984A-166B9CDF9DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01E50A31-751A-44B8-984A-166B9CDF9DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01E50A31-751A-44B8-984A-166B9CDF9DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A91B62C-7838-41C8-AB68-2695E1F26A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A91B62C-7838-41C8-AB68-2695E1F26A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A91B62C-7838-41C8-AB68-2695E1F26A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A91B62C-7838-41C8-AB68-2695E1F26A7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
