@@ -4,5 +4,15 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MultiBlog.Application\MultiBlog.Application.csproj" />
+    <ProjectReference Include="..\MultiBlog.Core\MultiBlog.Core.csproj" />
+    <ProjectReference Include="..\MultiBlog.Infrastructure\MultiBlog.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dtos\Account\" />
+  </ItemGroup>
+
 
 </Project>
